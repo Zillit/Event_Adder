@@ -1,0 +1,6 @@
+Event_Adder is a gui enhancement made to streamline the addiction of event to a calendar.  The goal is a app that require as few clicks as possible while using history data to set the default value to what is expected. While the app is strictly for adding event, the code should be general enough to allow interface expansion to any application in the future. 
+The design idee is to have a central point of origin, then dragging a line through each setting field and each button with the predicted setting set up as a straight line upward and downward. This should mean that an event only need two or three presses. 
+The app should have the following fields:
+* A readily available setting tab, where one can modify what appears as default. 
+* Current button indicator, where the current value is seen in big letters. This will help as the text would otherwise be underneath one's finger. Also, each field should have a explanation of what it is setting to the left. 
+* Arrays of fields, with the default action set in the center button and the most common (and logical) settings to the close left and right of that. For unusual settings there should be further to the left and right a button that open a new field above for more unusual buttons. This field should just collapse when dragging back to parent field, with the center button now having the unusual setting chosen. 
